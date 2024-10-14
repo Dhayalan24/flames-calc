@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>FLAMES Game</h1>
+    <form id="flamesForm">
+        <label for="name1">Enter your name:</label>
+        <input type="text" id="name1" name="name1" required>
+
+        <label for="name2">Enter the other person's name:</label>
+        <input type="text" id="name2" name="name2" required>
+
+        <button type="button" onclick="calculateFlames()">Calculate</button>
+    </form>
+
+    <div id="result">
+        <h2>FLAMES result:</h2>
+        <img id="flamesImage" alt="FLAMES Result" style="max-width: 100%; height: auto; display: none;">
+    </div>
+</div>
+
+<script src="javajs.js"></script>
+</body>
+</html>
